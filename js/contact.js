@@ -24,6 +24,7 @@ $(function() {
 			$(formMessages).addClass('form-status');
 			$(formMessagesWrap).removeClass('alert-danger');
 			$(formMessagesWrap).addClass('alert-success');
+			
 
 			// Set the message text.
 			$(formMessagesWrap).text(response);

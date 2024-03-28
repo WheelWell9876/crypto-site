@@ -24,7 +24,7 @@ body {
     color: #999;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #292929;
+    background-color: #990000;
 }
 p {
     font-family: 'Open Sans', sans-serif;
@@ -288,7 +288,7 @@ h6 {
    Hero Section
    ========================================================================== */
 .hero-section{
-    background-image: url(../img/hero-bg.jpg);
+    /* background-image: url(../img/hero-bg.jpg); */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -775,6 +775,10 @@ footer p a {
     margin-left: 15px;
 }
 
+.club-logo{
+    width: 100%;
+    height: auto;
+}
 
 /* ======= Media Query  ======= */
 @media screen and (min-width: 1200px) {
@@ -782,6 +786,9 @@ footer p a {
         max-width: 1200px;
         padding-left: 30px;
         padding-right: 30px;
+    }
+    .club-logo {
+        width: 350px; /* Larger size for larger screens */
     }
 }
 @media screen and (max-width: 1199px) {
@@ -882,6 +889,10 @@ footer p a {
     .contact-form .form-group { margin-bottom: 15px; }
     .cta-section,
     .cta-section .text-right{ text-align: center!important; }
+
+    .club-logo {
+        width: 120px; /* Smaller size for smaller devices */
+    }
 }
 @media screen and (max-width: 580px) {
     footer { text-align: center; }
